@@ -120,7 +120,7 @@ export const ConteinerNomeDatAutor = styled.div`
   justify-content: center;
   gap: 0px;
 `;
-export const NomeAutor = styled.h4`
+export const NomeAutor = styled.h3`
   font-size: 14px;
   color: #313131ff;
 `;
