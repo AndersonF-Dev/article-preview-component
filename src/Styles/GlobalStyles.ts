@@ -1,22 +1,29 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif; /* Ou a fonte do desafio */
+ 
+    font-family: "Manrope", sans-serif;
   }
   #root {
-  max-width: 1280px;
-  /* margin: 0 auto; */
-  padding: 2rem;
-  text-align: center;
-  background-color: #2259acff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+    padding: 0 3rem;
+    text-align: center;
+  
 }
 
 body {
-    background-color: #ffffffff;
+    background-color: hsl(210, 46%, 95%);
     -webkit-font-smoothing: antialiased;
     display: flex;
     flex-direction: column;
@@ -26,8 +33,16 @@ body {
     min-width: 320px;
     min-height: 100vh;
 
-     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { 
+      font-size: 11px; 
+      text-align: center;
+          
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%); 
+    }
+
+  
   }
 
 `;

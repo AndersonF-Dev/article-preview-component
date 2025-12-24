@@ -1,22 +1,14 @@
-import { Conteiner} from './Styles/StylesApp'
-
-
-
+import CardPreviwArticle from "./Component/Card/CardPreviwArticle";
+import { Conteiner } from "./Styles/StylesApp";
 
 function App() {
-
-
   return (
     <>
       <Conteiner>
-      <h1>Vite + React</h1>
-       
+        <CardPreviwArticle />
       </Conteiner>
-
-    
-     
     </>
-  )
+  );
 }
 
-export default App
+export default App;
