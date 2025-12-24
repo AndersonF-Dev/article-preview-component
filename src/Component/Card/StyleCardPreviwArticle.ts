@@ -74,9 +74,7 @@ export const TitleArticle = styled.h2`
   text-align: left;
   color: #313131ff;
 
-  /* @media (max-width: 763px) {
-    font-size: 15px;
-  } */
+
 `;
 export const DescriptionArticle = styled.p`
   font-size: 13px;
