@@ -70,12 +70,13 @@ export const ColonaArticle = styled.article`
 
 export const TitleArticle = styled.h2`
   font-size: 18px;
+  font-size: clamp(15px, 2.5vw, 18px);
   text-align: left;
   color: #313131ff;
 
-  @media (max-width: 763px) {
+  /* @media (max-width: 763px) {
     font-size: 15px;
-  }
+  } */
 `;
 export const DescriptionArticle = styled.p`
   font-size: 13px;
@@ -83,7 +84,6 @@ export const DescriptionArticle = styled.p`
   color: #474747ff;
 
   @media (max-width: 763px) {
-    font-size: 13px;
     margin-bottom: 10px;
   }
 `;
